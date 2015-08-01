@@ -1,3 +1,5 @@
+#app deployed to https://jsta.shinyapps.io/cond2sal_shiny
+
 shinyUI(fluidPage(
   titlePanel(h1("Conductivity to Salinity Conversion")),
   
