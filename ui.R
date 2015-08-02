@@ -29,7 +29,7 @@ shinyUI(fluidPage(
              p(h3("Enter Temperature"),
                 numericInput("Temperature",label="Manual Temperature Input (deg C)",value = 25))
              ),
-             mainPanel(p(h2("The salinity of your sample is:",textOutput("saloutput")))
+             mainPanel(p(strong(h2("Salinity:",textOutput("saloutput"))))
              
              )),
     tabPanel("File Upload",
