@@ -25,13 +25,15 @@ shinyUI(fluidPage(
     "Conversion Data Entry",
     tabPanel("Manual",
              sidebarPanel(h3("Enter Conductivity"),
-             numericInput("Conductivity",label = "Manual Conductivity Input (microsiemens)",value=0)
+                numericInput("Conductivity",label = "Manual Conductivity Input (microsiemens)",value=0),
+             p(h3("Enter Temperature"),
+                numericInput("Temperature",label="Manual Temperature Input (deg C)",value = 25))
              ),
              mainPanel(p(h2("The salinity of your sample is:",textOutput("saloutput")))
              
              )),
     tabPanel("File Upload",
-             sidebarPanel(h3("Enter Conductivity"),
+             sidebarPanel(h3("Conductivity (microsiemens) or Cond./Temp. (deg c)"),
                           fileInput('file1', 'File CSV Input',
                                     accept=c('text/csv',
                                              'text/comma-separated-values,text/plain',
