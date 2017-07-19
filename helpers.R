@@ -6,7 +6,7 @@
 #'@param P numeric optional pressure (defaults to 0)
 #'@examples cond2sal(c=52*1000)
 #'@details algorithm based off an excel implementation of PSS78 by N. Iricanin
-#'@seealso \code{\link[wq]{ec2pss}}
+#'@seealso \code{\link[wql]{ec2pss}}
 #'
 cond2sal<-function (c, t = 25, P = 0) 
 {

@@ -19,7 +19,7 @@ shinyUI(fluidPage(
               
               h2("References"),
                 p(a(href="http://www.teos-10.org/pubs/TEOS-10_Manual.pdf","IOC,  SCOR  and  IAPSO,  2010: The  international  thermodynamic  equation  of  seawater –  2010:  Calculation  and use of thermodynamic properties.  Intergovernmental Oceanographic Commission, Manuals and Guides No. 56, UNESCO (English), 196 pp")),
-              p(a(href="http://cran.r-project.org/package=wq","Alan D. Jassby and James E. Cloern (2015). wq: Some tools for exploring water quality monitoring data. R package version 0.4.4. See the wq::ec2pss function.")),
+              p(a(href="http://cran.r-project.org/package=wq","Alan D. Jassby and James E. Cloern (2015). wq: Some tools for exploring water quality monitoring data. R package version 0.4.4. See the wql::ec2pss function.")),
                p("The", a(href="http://www.github.com/jsta/cond2sal_shiny"," source"),"for this app is on github where you can",a(href="https://github.com/jsta/cond2sal_shiny/issues","report"), "issues and",a(href="https://github.com/jsta/cond2sal_shiny/issues","post"),"feature requests.")
             )),
     "Conversion Data Entry",
